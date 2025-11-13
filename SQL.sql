@@ -2,7 +2,7 @@
 CREATE SCHEMA IF NOT EXISTS MedicalPractice;
 USE MedicalPractice;
 
--- 2. Drop tables if they already exist (to avoid errors)
+
 DROP TABLE IF EXISTS Appointments;
 DROP TABLE IF EXISTS Doctor;
 DROP TABLE IF EXISTS MedicalPatient;
